@@ -1,2 +1,3 @@
 # Main Page
-##[About Me](about.md)
+## About Me
+[About Me](about.md)
