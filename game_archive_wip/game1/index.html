@@ -97,6 +97,10 @@ function updateGameArea() {
             return;
         } 
     }
+    for (i = 0; i < 32917; i += 1) {
+        star = new component(1, 1, "white", 10, 120);
+        star.gravity = 1;
+    }
     myGameArea.clear();
     myGameArea.frameNo += 1;
     if (myGameArea.frameNo == 1 || everyinterval(150)) {
