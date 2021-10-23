@@ -5,4 +5,4 @@ My contact details are below:
 ## Discord
 i am tree#6770
 ## Email (not my personal one)
-fysixdev@gmail.com
+[fysixdev@gmail.com](mailto:fysixdev@gmail.com)
