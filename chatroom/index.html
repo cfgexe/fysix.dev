@@ -5,7 +5,7 @@
     function myFunc() {
         if (document.cookie != "visint=undefined") {
             var num;
-        else {
+        if (document.cookie == "visint=undefined") {
             var num = 0;
         }
         document.cookie = "visint="+num;
