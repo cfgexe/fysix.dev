@@ -3,7 +3,11 @@
 <body onload="myFunc()">
 <script>
     function myFunc() {
-        var num; 
+        if document.cookie != "visint=undefined" {
+            var num;
+        else {
+            var num = 0;
+        }
         document.cookie = "visint="+num;
         num++;
         console.log(document.cookie);
