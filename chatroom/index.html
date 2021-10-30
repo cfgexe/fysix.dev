@@ -1,8 +1,11 @@
 <!DOCTYPE html>
 <html>
-<body>
+<body onload="myFunc()">
 <script>
-    document.cookie = "username=John Doe; expires=Thu, 18 Dec 2013 12:00:00 UTC"; 
+    function myFunc() {
+        document.cookie = "username=John Doe; expires=Thu, 18 Dec 2021 12:00:00 UTC"; 
+        console.log(document.cookie);
+    }
 </script>
 </body>
 </html>
