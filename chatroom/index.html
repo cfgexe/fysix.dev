@@ -7,7 +7,7 @@
             var num;
         }
         if (document.cookie == "visint=undefined") {
-            var num = 0;
+            var num = document.cookie;
         }
         document.cookie = "visint="+num;
         num++;
