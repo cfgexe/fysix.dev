@@ -4,10 +4,10 @@
 <script>
     function myFunc() {
         if (document.cookie != "visint=undefined") {
-            var num;
+            var num = document.cookie;
         }
         if (document.cookie == "visint=undefined") {
-            var num = document.cookie;
+            var num;
         }
         document.cookie = "visint="+num;
         num++;
