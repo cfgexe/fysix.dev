@@ -4,7 +4,7 @@
 <script>
     function myFunc() {
         if (document.cookie != "visint=undefined") {
-            var num = document.cookie;
+            var num = document.cookie.strip("visint=");
         }
         if (document.cookie == "visint=undefined") {
             var num = 0;
