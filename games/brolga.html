@@ -1,0 +1,28 @@
+<script>
+var age = 0
+var name = window.prompt("Please enter your Brolga's name. (WARNING: THIS CANNOT BE CHANGED LATER.)", "Replace this with your Brolga's name!");
+var name_confirm = window.confirm("Are you sure you want " + name + " to be your Brolga's name?");
+if (name_confirm == true) var gender = window.prompt("Ok " + name + "! Now, what is your gender (type 'm' for male, type 'f' for female");
+if (name_confirm == false) var name = window.prompt("Please enter your Brolga's name. (WARNING: THIS CANNOT BE CHANGED LATER.)", "Replace this with your Brolga's name!");
+window.alert("Perfect! We will now begin the game!");
+main();
+function main() {
+	window.alert("Hey, I saw this is the first time you've played this game, so I'm gonna show you how to play!");
+    var t = window.prompt("Type 'a' in the box below.");
+    if (t == "a") window.alert("Great job!");
+    if (t != "a")  window.alert("That's not quite right...");
+    age++;
+    window.alert("You are now age " + age + "!");
+    window.alert("You encounter another Brolga!");
+    var x = window.confirm("Do you want to fight it?");
+    if (x == true) {
+    fightBrolga1();
+    }
+}
+function fightBrolga1() {
+	window.alert("You approach the Brolga and headbutt it.");
+	window.alert("The Brolga throws a bad apple at your head!");
+    let beat = new Audio("https://cdn.discordapp.com/attachments/500416964620189706/809600830730141696/output.mp3");
+    beat.play();
+}
+</script>
